@@ -49759,7 +49759,7 @@
         "1",
         "2"
       ],
-      "field_default_value": "rgba(0, 0, 0, .6)",
+      "field_default_value": "'rgba(0, 0, 0, .6)'",
       "field_enum": "",
       "field_desc_zh": "即将废弃。遮罩的背景颜色",
       "field_desc_en": null,
@@ -49881,6 +49881,9 @@
     {
       "id": 3125,
       "platform_framework": [
+        "8",
+        "16",
+        "32",
         "64"
       ],
       "component": "ImageViewer",
@@ -49909,6 +49912,9 @@
       "support_default_value": 0,
       "field_category_text": "Props",
       "platform_framework_text": [
+        "Vue(Mobile)",
+        "React(Mobile)",
+        "Angular(Mobile)",
         "Miniprogram"
       ],
       "field_type_text": [
@@ -50181,7 +50187,7 @@
       ],
       "field_default_value": "3",
       "field_enum": "",
-      "field_desc_zh": "开发中。最大放大比例",
+      "field_desc_zh": "最大放大比例",
       "field_desc_en": null,
       "field_required": 0,
       "event_input": "",
@@ -50633,6 +50639,9 @@
     {
       "id": 3406,
       "platform_framework": [
+        "8",
+        "16",
+        "32",
         "64"
       ],
       "component": "ImageViewer",
@@ -50659,6 +50668,9 @@
       "support_default_value": 0,
       "field_category_text": "Events",
       "platform_framework_text": [
+        "Vue(Mobile)",
+        "React(Mobile)",
+        "Angular(Mobile)",
         "Miniprogram"
       ],
       "field_type_text": []
@@ -50711,6 +50723,9 @@
     {
       "id": 3407,
       "platform_framework": [
+        "8",
+        "16",
+        "32",
         "64"
       ],
       "component": "ImageViewer",
@@ -50737,6 +50752,9 @@
       "support_default_value": 0,
       "field_category_text": "Events",
       "platform_framework_text": [
+        "Vue(Mobile)",
+        "React(Mobile)",
+        "Angular(Mobile)",
         "Miniprogram"
       ],
       "field_type_text": []
@@ -50746,10 +50764,7 @@
       "platform_framework": [
         "1",
         "2",
-        "4",
-        "8",
-        "16",
-        "32"
+        "4"
       ],
       "component": "ImageViewer",
       "field_category": 2,
@@ -50777,10 +50792,7 @@
       "platform_framework_text": [
         "Vue(PC)",
         "React(PC)",
-        "Angular(PC)",
-        "Vue(Mobile)",
-        "React(Mobile)",
-        "Angular(Mobile)"
+        "Angular(PC)"
       ],
       "field_type_text": []
     },
